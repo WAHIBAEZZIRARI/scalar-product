@@ -1,0 +1,19 @@
+Algorithme ex35
+Variables
+Tableau V (3): réela
+Tableau U (3): réela
+i: entier
+P: réel
+Début
+Pour i <-- 0 à 2 pas 1 Faire
+Ecrire ("Donner l'élément ",i+1," du vecteur V ")
+Lire (V (i))
+Ecrire ("Donner l'élément ",i+1," du vecteur U ")
+Lire (U(i))
+fin Pour
+P <-- 0
+Pour i <-- 0 à 2 pas 1 Faire
+P <-- P + V(i)* U(i)
+fin Pour
+Ecrire ("Le produit scalaire des vecteurs U et V est: " , P)
+Fin
